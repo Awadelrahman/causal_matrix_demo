@@ -1,0 +1,12 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+env:
+  - name: "API_ROOT" 
+    value: "REPLACE WITH YOUR DATABRICKS WS URL"
+  - name: "API_TOKEN" 
+    value: "REPLACE WITH YOUR DATABRICKS WS PERSONAL ACCESS TOKEN"
+  - name: "ENDPOINT_NAME" 
+    value: "causal_endpoint"
